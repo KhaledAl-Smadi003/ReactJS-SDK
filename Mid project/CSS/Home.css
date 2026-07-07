@@ -20,7 +20,9 @@ body {
   display: flex;
   gap: 20px;
 }
-
+.btn:hover{
+  background-color: red;
+}
 ul li a {
   color: #ccc;
   text-decoration: none;
@@ -120,131 +122,125 @@ ul li a:hover {
   font-size: 14px;
 }
   
-/* 📱 Mobile (0 - 768px) */
-@media (max-width: 768px) {
 
-  .navbar{
+@media (max-width: 767px) {
+
+  .navbar {
     flex-direction: column;
-    gap: 15px;
+    align-items: center;
+    gap: 10px;
     padding: 15px 20px;
   }
 
-  .nav-links ul{
+  .nav-links ul {
     flex-direction: column;
     align-items: center;
     gap: 10px;
   }
 
-  .hero{
+  .hero {
     flex-direction: column;
     text-align: center;
     padding: 40px 20px;
   }
 
-  .hero-text h1{
+  .hero-text h1 {
     font-size: 28px;
   }
 
-  .hero-image img{
+  .hero-text p {
+    font-size: 16px;
+  }
+
+  .hero-image img {
     width: 100%;
   }
 
-  .footer-container{
+  .footer-container {
     flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .cta-button {
+    width: 100%;
     text-align: center;
   }
 }
 
 
-/* 📟 Tablet (768px - 1024px) */
-@media (min-width: 768px) and (max-width: 1024px) {
 
-  .hero{
+@media (min-width: 768px) and (max-width: 1023px) {
+
+  .hero {
     flex-direction: column;
     text-align: center;
     padding: 60px 40px;
   }
 
-  .hero-text h1{
+  .hero-text h1 {
     font-size: 34px;
   }
 
-  .hero-image img{
+  .hero-image img {
     width: 80%;
   }
 
-  .footer-container{
+  .nav-links ul {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .footer-container {
     flex-wrap: wrap;
     gap: 20px;
   }
 }
 
 
-/* 💻 Laptop (1024px - 1440px) */
-@media (min-width: 1024px) and (max-width: 1440px) {
+@media (min-width: 1024px) and (max-width: 1439px) {
 
-  .hero{
+  .hero {
     padding: 80px 60px;
+    gap: 40px;
   }
 
-  .hero-text h1{
-    font-size: 40px;
+  .hero-text h1 {
+    font-size: 42px;
   }
 
-  .hero-image img{
+  .hero-image img {
     width: 500px;
   }
 }
 
 
-/* 🖥️ 4K / Large Screens (1440px+) */
+
 @media (min-width: 1440px) {
 
-  body{
+  body {
     font-size: 18px;
   }
 
-  .navbar{
-    padding: 20px 120px;
-  }
-
-  .hero{
+  .hero {
     padding: 120px 150px;
-    gap: 100px;
+    gap: 80px;
   }
 
-  .hero-text h1{
+  .hero-text h1 {
     font-size: 60px;
   }
 
-  .hero-text p{
+  .hero-text p {
     font-size: 22px;
     line-height: 1.8;
   }
 
-  .hero-image img{
-    width: 700px;
+  .hero-image img {
+    width: 650px;
   }
 
-  .cta-button{
-    padding: 15px 30px;
-    font-size: 18px;
-  }
-
-  section{
-    padding: 100px 150px;
-  }
-
-  .footer{
-    padding: 80px 150px 30px;
-  }
-
-  .footer-box h3{
-    font-size: 22px;
-  }
-
-  .footer-box p,
-  .footer-box a{
-    font-size: 16px;
+  .navbar {
+    padding: 20px 120px;
   }
 }

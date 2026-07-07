@@ -5,6 +5,7 @@ body {
   margin: 0;
   font-family:Arial;
   background-color: #04061f;
+  padding-top: 90px;
 }
 
 .navbar {
@@ -12,9 +13,12 @@ body {
   justify-content: space-between;
   padding: 20px 60px;
   background-color: #333;
-
+  
 }
-
+.card .btn:hover {
+  background-color: green;
+  color: white;
+}
 .nav-links ul {
   list-style: none;
   display: flex;
@@ -35,7 +39,9 @@ ul li a:hover {
   text-decoration: underline;
   box-shadow: 0 2px 5px rgba(135, 206, 235, 0.5);
 }
-
+.btn:hover{
+  background-color: red;
+}
 .text-center
 {
     text-align: center;

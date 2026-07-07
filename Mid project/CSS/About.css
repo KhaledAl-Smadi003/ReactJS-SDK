@@ -7,15 +7,17 @@ body {
   font-family: Arial;
   background-color: #04061f;
   color: white;
+padding-top: 90px; 
+  
 }
 
-.navbar {
+.main-navbar {
   display: flex;
   justify-content: space-between;
   padding: 20px 60px;
   background-color: #333;
   align-items: center;
-  
+ 
 }
 
 .nav-links ul {
@@ -41,6 +43,9 @@ body {
   box-shadow: 0 2px 5px rgba(135, 206, 235, 0.5);
 }
 
+.btn:hover{
+  background-color: red;
+}
 .Main-Header {
   text-align: center;
   color: #87ceeb;

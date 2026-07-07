@@ -5,6 +5,7 @@ body {
   margin: 0;
   font-family:Arial;
   background-color: #04061f;
+  padding-top: 90px;
 }
 
 .navbar {
@@ -36,7 +37,9 @@ ul li a:hover {
   box-shadow: 0 2px 5px rgba(135, 206, 235, 0.5);
 }
 
-
+.btn:hover{
+  background-color: red;
+}
 
 .footer {
   background-color: #0b0f2a;
