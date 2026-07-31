@@ -76,7 +76,6 @@ label
 
 .container {
   padding: 16px;
-  justify-self: center;
 }
 .create{
   margin-top: 15px;
@@ -116,12 +115,173 @@ label
   font-size: 14px;
 }
 
-@media screen and (max-width: 300px) {
-  span.psw {
-    display: block;
-    float: none;
+
+@media (max-width:320px){
+
+  .hero-section{
+    min-height:100vh;
+    height:auto;
+    padding:20px 10px;
   }
-  .cancelbtn {
-    width: 100%;
+
+
+  form{
+    width:100%;
+    max-width:280px;
+    padding:20px;
   }
+
+
+  .title h3{
+    font-size:20px;
+  }
+
+
+  .imgcontainer img{
+    width:80px;
+  }
+
+
+  input[type=text],
+  input[type=password]{
+    padding:10px;
+  }
+
+
+  button{
+    padding:10px;
+  }
+
+
+  .footer{
+    padding:30px 10px;
+  }
+
+
+  .footer-container{
+    flex-direction:column;
+    text-align:center;
+    gap:20px;
+  }
+
+}
+
+@media (min-width:321px) and (max-width:375px){
+
+
+  .hero-section{
+    padding:20px;
+    min-height:100vh;
+  }
+
+
+  form{
+    width:100%;
+    max-width:320px;
+    padding:25px;
+  }
+
+
+  .title h3{
+    font-size:24px;
+  }
+
+
+  .imgcontainer img{
+    width:90px;
+  }
+
+
+  .footer-container{
+    flex-direction:column;
+    text-align:center;
+  }
+
+}
+
+
+@media (min-width:376px) and (max-width:767px){
+
+
+  .hero-section{
+    padding:30px;
+  }
+
+
+  form{
+    width:100%;
+    max-width:350px;
+  }
+
+
+  .title h3{
+    font-size:26px;
+  }
+
+
+  .footer-container{
+    flex-direction:column;
+    text-align:center;
+  }
+
+}
+
+
+@media (min-width:768px) and (max-width:1024px){
+
+
+  .hero-section{
+
+    padding:40px;
+
+  }
+
+
+  form{
+
+    width:420px;
+
+  }
+
+
+  .footer{
+
+    padding:40px;
+
+  }
+
+
+  .footer-container{
+
+    justify-content:center;
+    gap:30px;
+
+  }
+
+}
+
+@media (min-width:1025px) and (max-width:1366px){
+
+
+  .hero-section{
+
+    height:100vh;
+    padding:0 50px;
+
+  }
+
+
+  form{
+
+    width:350px;
+
+  }
+
+
+  .footer{
+
+    padding:40px 50px;
+
+  }
+
 }

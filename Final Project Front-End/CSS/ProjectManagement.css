@@ -98,3 +98,188 @@ ul li a:hover {
   color: #888;
   font-size: 14px;
 }
+
+@media (max-width:320px){
+
+  body{
+    padding-bottom:50px;
+  }
+
+
+  form{
+    margin-top:20px !important;
+    padding:15px;
+  }
+
+
+  .row.container{
+    margin-top:20px !important;
+    padding:0;
+  }
+
+
+  .row .col-md-2{
+    width:100%;
+    margin-bottom:15px;
+  }
+
+
+  form h1{
+    font-size:24px;
+  }
+
+
+  table{
+    font-size:12px;
+  }
+
+
+  .table{
+    overflow-x:auto;
+    display:block;
+    white-space:nowrap;
+  }
+
+
+  .footer{
+    padding:30px 15px;
+  }
+
+
+  .footer-container{
+    flex-direction:column;
+    text-align:center;
+    gap:20px;
+  }
+
+}
+@media (min-width:321px) and (max-width:375px){
+
+
+  form{
+    padding:20px;
+  }
+
+
+  .row .col-md-2{
+    width:100%;
+    margin-bottom:15px;
+  }
+
+
+  form h1{
+    font-size:28px;
+  }
+
+
+  .table{
+    display:block;
+    overflow-x:auto;
+    white-space:nowrap;
+    font-size:13px;
+  }
+
+
+  .footer-container{
+    flex-direction:column;
+    text-align:center;
+  }
+
+
+}
+@media (min-width:376px) and (max-width:767px){
+
+
+  form{
+    padding:25px;
+  }
+
+
+  .row .col-md-2{
+
+    width:100%;
+    margin-bottom:15px;
+
+  }
+
+
+  .table{
+
+    display:block;
+    overflow-x:auto;
+    white-space:nowrap;
+
+  }
+
+
+  .card h2{
+
+    font-size:28px;
+
+  }
+
+
+  .footer-container{
+
+    flex-direction:column;
+    text-align:center;
+
+  }
+
+}
+@media (min-width:768px) and (max-width:1024px){
+
+
+  form{
+
+    padding:25px;
+
+  }
+
+
+  .row .col-md-2{
+
+    width:33.333%;
+
+  }
+
+
+  table{
+
+    font-size:14px;
+
+  }
+
+
+  .footer{
+
+    padding:40px;
+
+  }
+
+}
+@media (min-width:1025px) and (max-width:1366px){
+
+
+  form{
+
+    padding:25px;
+
+  }
+
+
+  .row .col-md-2{
+
+    width:16.666%;
+
+  }
+
+
+  table{
+
+    font-size:15px;
+
+  }
+
+
+}
